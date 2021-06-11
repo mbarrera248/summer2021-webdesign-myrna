@@ -1,0 +1,88 @@
+
+Mirnz@DESKTOP-D30VEUP MINGW64 ~
+$ ~/onedrive/desktop/summer2021-webdesign-myrna cd
+bash: /c/Users/Mirnz/onedrive/desktop/summer2021-webdesign-myrna: Is a directory
+
+Mirnz@DESKTOP-D30VEUP MINGW64 ~
+$ ~/onedrive/desktop/summer2021-webdesign-myrna ls
+bash: /c/Users/Mirnz/onedrive/desktop/summer2021-webdesign-myrna: Is a directory
+
+Mirnz@DESKTOP-D30VEUP MINGW64 ~
+$ onedrive
+bash: onedrive: command not found
+
+Mirnz@DESKTOP-D30VEUP MINGW64 ~
+$ /onedrive
+bash: /onedrive: No such file or directory
+
+Mirnz@DESKTOP-D30VEUP MINGW64 ~
+$ ~/onedrive
+bash: /c/Users/Mirnz/onedrive: Is a directory
+
+Mirnz@DESKTOP-D30VEUP MINGW64 ~
+$ /desktop
+bash: /desktop: No such file or directory
+
+Mirnz@DESKTOP-D30VEUP MINGW64 ~
+$ ~/onedrive/desktop
+bash: /c/Users/Mirnz/onedrive/desktop: Is a directory
+
+Mirnz@DESKTOP-D30VEUP MINGW64 ~
+$ ~/onedrive/desktop cd
+bash: /c/Users/Mirnz/onedrive/desktop: Is a directory
+
+Mirnz@DESKTOP-D30VEUP MINGW64 ~
+$ cd ~/onedrive/desktop
+
+Mirnz@DESKTOP-D30VEUP MINGW64 ~/onedrive/desktop
+$ ls
+'Addition and Subtraction Color by Number Bundle _ Spring'/
+ AdditionandSubtractionColoringPagesinclSpringMathEarthDayMath-1/
+ DesignLab/
+ Figma.lnk*
+ Fonts/
+ Games/
+'ILP Student Work'/
+ Library/
+'Order RXK114D is Confirmed Chaparral horseback riding 122620.pdf'
+ Payload~
+ PeaZip.lnk*
+ Plants/
+ ReadingComprehensionChecksforAprilNOPREP-1/
+ ReadingComprehensionPassagesandQuestionsSummer2ndGrade-1/
+'ReadingComprehensionPassagesandQuestionsSummer2ndGrade-1 - 1'/
+ Slack.lnk*
+'Stardew Valley.url'
+'The Elder Scrolls V Skyrim Special Edition.url'
+'UNIT 2 UI DESIGN PRINCIPLES Reproduce a landing page iteration 1'
+'UNIT 2 UI DESIGN PRINCIPLES Reproduce a landing page iteration.pdf'
+'Unit 3 replicate airbnb reflection.pdf'
+'Unit 3 replicate airbnb.pdf'
+ Zoom.lnk*
+'back to school.pdf'
+ buildung.png
+'casas el salvador'/
+ dance.jpg
+ desktop.ini
+'download (1).jfif'
+ download.jfif
+ san-francisco-skyline-bay-bridge-260nw-160968266.webp
+ summer2021-webdesign-eduardo/
+ summer2021-webdesign-myrna/
+'unit 3 airbnb reflecction replicate.pdf'
+'unit 3 desktop and phone frames.pdf'
+
+Mirnz@DESKTOP-D30VEUP MINGW64 ~/onedrive/desktop
+$ cd ~/onedrive/desktop/summer2021-webdesign-myrna
+
+Mirnz@DESKTOP-D30VEUP MINGW64 ~/onedrive/desktop/summer2021-webdesign-myrna
+$ mkdir homework
+
+Mirnz@DESKTOP-D30VEUP MINGW64 ~/onedrive/desktop/summer2021-webdesign-myrna
+$ cd ~/onedrive/desktop/summer2021-webdesign-myrna/homework
+
+Mirnz@DESKTOP-D30VEUP MINGW64 ~/onedrive/desktop/summer2021-webdesign-myrna/homework
+$ touch homework1-2.txt
+
+Mirnz@DESKTOP-D30VEUP MINGW64 ~/onedrive/desktop/summer2021-webdesign-myrna/homework
+$
