@@ -1,0 +1,31 @@
+<h1>
+    <a href="https://marksheet.io/">MarkSheet </a>
+</h1>
+<h2> 
+    A Free HTML & CSS Tutorial
+</h2>
+<h3>
+    Jeremy Thomas
+</h3>
+<ul>
+    <li> Free</li>
+    <li>Intro to HTML & CSS</li>
+    <li> History of internet</li>
+    <li>  </li>
+</ul>
+<p>This webpage is a great tutorial for beginners. It begins by giving a brief history of the itnernet and goes into detail on what daily terminology is such as internet, web, HTML, HTTP, etc. This tutorial was broken down into small easy to read sections. Each section was thoroughly explained with details and examples. The creator of the site also created a book that he is selling on the site. </p>
+
+
+<h1> 
+    <a href=”http://jsforcats.com/ ”>JavaScript for Cats</a> 
+</h1>
+<ul>
+    <li> Free</li>
+    <li>Intro to JS</li>
+    <li> Easy to follow</li>
+    <li> Cats</li>
+</ul>
+<p> 
+    <!--Do I have to press enter in the p so that the text doesn't go all the way to the right?-->
+    This was a fun basic introduction to Javascript. The creator wrote the tutorial as if the reader was a cat; it also contains many cat pictures to go along with it. It goes through the main parts of JavaScript in an easy to understand format. It was also easy to follow the instructions since the creator added GIFs and pictures to guide the reader. This webpage could be done in a day perhaps even within a few hours. At the end of the tutorial the creator added extra resources so that readers can continue their JavaScript journey. 
+</p> 

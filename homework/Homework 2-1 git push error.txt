@@ -1,0 +1,206 @@
+
+Mirnz@DESKTOP-D30VEUP MINGW64 ~/summer2021-webdesign-myrna/homework (main)
+$ git push
+Everything up-to-date
+
+Mirnz@DESKTOP-D30VEUP MINGW64 ~/summer2021-webdesign-myrna/homework (main)
+$ git add -A
+
+Mirnz@DESKTOP-D30VEUP MINGW64 ~/summer2021-webdesign-myrna/homework (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   ../assignments/week2/firstwebpage.html
+        new file:   homework2-1.html
+
+
+Mirnz@DESKTOP-D30VEUP MINGW64 ~/summer2021-webdesign-myrna/homework (main)
+$ git push
+Everything up-to-date
+
+Mirnz@DESKTOP-D30VEUP MINGW64 ~/summer2021-webdesign-myrna/homework (main)
+$ git init
+Initialized empty Git repository in C:/Users/Mirnz/summer2021-webdesign-myrna/ho
+mework/.git/
+
+Mirnz@DESKTOP-D30VEUP MINGW64 ~/summer2021-webdesign-myrna/homework (master)
+$ git push
+fatal: No configured push destination.
+Either specify the URL from the command-line or configure a remote repository us
+ing
+
+    git remote add <name> <url>
+
+and then push using the remote name
+
+    git push <name>
+
+
+Mirnz@DESKTOP-D30VEUP MINGW64 ~/summer2021-webdesign-myrna/homework (master)
+$ git sttus
+git: 'sttus' is not a git command. See 'git --help'.
+
+The most similar command is
+        status
+
+Mirnz@DESKTOP-D30VEUP MINGW64 ~/summer2021-webdesign-myrna/homework (master)
+$ git sttus
+git: 'sttus' is not a git command. See 'git --help'.
+
+The most similar command is
+        status
+
+Mirnz@DESKTOP-D30VEUP MINGW64 ~/summer2021-webdesign-myrna/homework (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        homework1-2.txt
+        homework2-1.html
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Mirnz@DESKTOP-D30VEUP MINGW64 ~/summer2021-webdesign-myrna/homework (master)
+$ git addhomework2-1.html
+git: 'addhomework2-1.html' is not a git command. See 'git --help'.
+
+Mirnz@DESKTOP-D30VEUP MINGW64 ~/summer2021-webdesign-myrna/homework (master)
+$ git add homework2-1.html
+
+Mirnz@DESKTOP-D30VEUP MINGW64 ~/summer2021-webdesign-myrna/homework (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   homework2-1.html
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        homework1-2.txt
+
+
+Mirnz@DESKTOP-D30VEUP MINGW64 ~/summer2021-webdesign-myrna/homework (master)
+$ git push
+fatal: No configured push destination.
+Either specify the URL from the command-line or configure a remote repository us
+ing
+
+    git remote add <name> <url>
+
+and then push using the remote name
+
+    git push <name>
+
+
+Mirnz@DESKTOP-D30VEUP MINGW64 ~/summer2021-webdesign-myrna/homework (master)
+$ git push homework2-1.html
+fatal: The current branch master has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream homework2-1.html master
+
+
+Mirnz@DESKTOP-D30VEUP MINGW64 ~/summer2021-webdesign-myrna/homework (master)
+$ ^C
+
+Mirnz@DESKTOP-D30VEUP MINGW64 ~/summer2021-webdesign-myrna/homework (master)
+$ ^C
+
+Mirnz@DESKTOP-D30VEUP MINGW64 ~/summer2021-webdesign-myrna/homework (master)
+$ git push --set-upstream homework2-1.html master
+error: src refspec master does not match any
+error: failed to push some refs to 'homework2-1.html'
+
+Mirnz@DESKTOP-D30VEUP MINGW64 ~/summer2021-webdesign-myrna/homework (master)
+$  git push --set-upstream homework2-1.html
+fatal: The current branch master has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream homework2-1.html master
+
+
+Mirnz@DESKTOP-D30VEUP MINGW64 ~/summer2021-webdesign-myrna/homework (master)
+$  --set-upstream homework2-1.html master
+bash: --set-upstream: command not found
+
+Mirnz@DESKTOP-D30VEUP MINGW64 ~/summer2021-webdesign-myrna/homework (master)
+$  git push --set-upstream homework2-1.html main
+error: src refspec main does not match any
+error: failed to push some refs to 'homework2-1.html'
+
+Mirnz@DESKTOP-D30VEUP MINGW64 ~/summer2021-webdesign-myrna/homework (master)
+$ git add homework1-2.txt
+
+Mirnz@DESKTOP-D30VEUP MINGW64 ~/summer2021-webdesign-myrna/homework (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   homework1-2.txt
+        new file:   homework2-1.html
+
+
+Mirnz@DESKTOP-D30VEUP MINGW64 ~/summer2021-webdesign-myrna/homework (master)
+$ git push
+fatal: No configured push destination.
+Either specify the URL from the command-line or configure a remote repository us
+ing
+
+    git remote add <name> <url>
+
+and then push using the remote name
+
+    git push <name>
+
+
+Mirnz@DESKTOP-D30VEUP MINGW64 ~/summer2021-webdesign-myrna/homework (master)
+$ $ git remote add homework https://github.com/mbarrera248
+bash: $: command not found
+
+Mirnz@DESKTOP-D30VEUP MINGW64 ~/summer2021-webdesign-myrna/homework (master)
+$ git remote add homework https://github.com/mbarrera248
+error: remote homework already exists.
+
+Mirnz@DESKTOP-D30VEUP MINGW64 ~/summer2021-webdesign-myrna/homework (master)
+$ git push
+fatal: No configured push destination.
+Either specify the URL from the command-line or configure a remote repository us
+ing
+
+    git remote add <name> <url>
+
+and then push using the remote name
+
+    git push <name>
+
+
+Mirnz@DESKTOP-D30VEUP MINGW64 ~/summer2021-webdesign-myrna/homework (master)
+$ git remote add homework2-1.html https://github.com/mbarrera248
+
+Mirnz@DESKTOP-D30VEUP MINGW64 ~/summer2021-webdesign-myrna/homework (master)
+$ git push homework2-1.html
+fatal: The current branch master has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream homework2-1.html master
+
+
+Mirnz@DESKTOP-D30VEUP MINGW64 ~/summer2021-webdesign-myrna/homework (master)
+$ git push --set-upstream homework2-1.html master
+error: src refspec master does not match any
+error: failed to push some refs to 'https://github.com/mbarrera248'
+
+Mirnz@DESKTOP-D30VEUP MINGW64 ~/summer2021-webdesign-myrna/homework (master)
+$
