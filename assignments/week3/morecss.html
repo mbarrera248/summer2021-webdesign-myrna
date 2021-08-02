@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>More CSS</title>
+
+        <!-- Internal Stylesheets -->
+        <style>
+body {
+    background-color:lightcoral ;
+}
+
+/* 
+Specificity Values
+One Element = 1 point
+One Class = 10 points
+One ID = 100 points
+
+ */
+
+img {
+    height: 200px;
+    border-width: 5px;
+    border-style: solid;
+    border-color:goldenrod;
+    border-radius: 20px;
+}
+/* Select a class needs to start with a period. Can be applied to multiple elements. */
+.portrait {
+    border-color:lightskyblue;
+}
+
+/* Select an id needs to start with the hash symbol. Can ONLY be applied to one element (per unique ID). */
+#sun {
+    box-shadow: 10px 10px:green;
+}
+
+div {
+    background-color:gainsboro;
+    width: 600px;
+    border: green solid 5px;
+    border-radius: 10px;
+    color:ghostwhite;
+}
+
+div h1 {
+    color: grey;
+}
+
+body div .portrait {
+    border-color:cornflowerblue;
+}
+
+#happy {
+    color:mediumorchid;
+    text-decoration: line-through;
+}
+        </style>
+    </head>
+    <body>
+        <h1>My Favorite Photos</h1> 
+
+        <img class="portrait" src="flower.jpg" alt="A woman holding bright orange, white and pink carnations in her lap." />
+
+        <img src="raspbeerries.jpg" alt="A picture of a close up of a lot red raspberries" />
+
+        <a href="https://google.com/" target="_blank"><img class="portrait" src="reindeer.jpg" alt="A portrait of a reindeer in tall dry grass in the woods staring at the camera. " /></a>
+
+        <img id="sun" src="sunflower.jpg" alt=".Closeup of half of a sunflower." />
+
+        <div>
+            <h1>My favorite <span id="happy">happy</span> photo</h1> 
+
+            <img class="portrait" src="yellow.jpg" alt="A woman wearing a straw hat holding a small branch with small yellow flowers to ther eye." />
+            <div style="border: none; vertical-align: top; height: 200px; width:100px; display: inline-block;">
+                <p style="text-align: justify">This is some text. Lorem ipsum dolor </p>
+            </div>
+            <img src="magnolia.jpg" alt="A close up of a white magnolia." />
+
+            <a href="https://google.com/" target="_blank"><img class="portrait" src="concert.jpg" alt="A large grouop of people raising their hands to the stadium at a concert at night. " /></a>
+
+            <img id="sun" src="sun.jpg" alt="A glass jar filled with fairy lights sits on the sand as the sunrises behind it. " />
+        </div>
+    </body>
+
+</html>

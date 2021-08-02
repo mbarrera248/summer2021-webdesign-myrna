@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>My First CSS Layout Web Page</title>
+
+        <style>
+            #container {
+                width: 900px;
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+            #header {
+                background-color:sienna;
+                color:lavenderblush;
+                text-align: center;
+                font-family: "Arial";
+                font-size: 24px;
+                text-transform: uppercase;
+                border-radius: 14px;
+            }
+
+            #header h1 {
+                margin-block-end: 0;
+            }
+
+            #main {
+                margin-top: 28px;
+                padding: 28px;
+                background-color:midnightblue;
+                color:gold;
+                font-family: "Arial";
+                font-size: 28px;
+                border-radius: 14px;
+                line-height: 42px;
+                text-align: justify;
+            }
+
+            #main p {
+                margin-block-start: 0;
+            }
+
+            #main #article {
+                display: inline-block;
+                width: 616px;
+                padding-right: 28px;
+            }
+
+            #main #section {
+                display: inline-block;
+                width: 200px;
+                /* height: 100%; */
+                /* background-color:orangered; *//* To sae for later?*/
+                vertical-align: top;
+                border-radius: 14px;
+            }
+
+            #footer {
+                margin-top: 28px;
+                background-color:royalblue;
+                height: 28px;
+                border-radius: 14px;
+                font-size: 12px;
+                text-align: center;
+                text-transform: uppercase;
+                color:goldenrod;
+                font-family: "Arial";
+            }
+
+        </style>
+    </head>
+
+    <body>
+
+        <div id="container">
+
+            <div id="header">
+                <h1>Welcome to My Website!</h1>
+            </div>
+
+            <div id="main">
+                <div id="article">
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore, iste iure cupiditate voluptatum obcaecati delectus? Corrupti omnis unde est possimus consectetur illo voluptas culpa dolorem? Nesciunt illo veniam inventore beatae.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit vero necessitatibus nesciunt vitae corrupti neque quibusdam nobis quia odio beatae repudiandae ex ipsam cum sed consequatur, inventore earum rem tempora?</p>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam autem, voluptates mollitia obcaecati sunt aspernatur praesentium dolor veritatis excepturi. Vitae dolorum laboriosam velit voluptatibus voluptates eligendi repellat eius adipisci porro!</p>
+                </div><div id="section">
+                    <img src="beach.jpg" alt="the shade  of a palm tree is on the sand in a clean beach with crystal clear bluw waters."/>
+
+                    <img src="flowersncoffee.jpg" alt="Purple flowers sit on top of a cup of coffee." />
+
+                    <img src="pinkflowersngirl.jpg" alt="A girl poses infront of a blooming flower bush." />
+
+                    <img src="redroses.jpg" alt="A small plant in the middle of a grassy field on an overcast day." width="200" height="300" />
+
+                    <img src="pinkflowers.jpg" alt="A bush with booling pink flowers." width="200" height="300" />
+                </div>
+                
+            </div>
+
+            <div id="footer">
+                <p>Copyright &copy;	MB2021</p>
+            </div>
+
+        </div>
+
+    </body>    
+</html>

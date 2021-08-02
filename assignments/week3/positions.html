@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>CSS Positions</title>
+
+        <style>
+body {
+    position: relative;
+    border: 5px solid black;
+    height: 10000px;
+}
+
+#pink, #blue, #coral, #yellow {
+    width: 200px;
+    height: 200px;
+}
+
+#pink {
+    background-color:pink;
+    position: absolute;
+    top: 50px;
+    left: 100px;
+    margin-top: 100px;
+    /* margin-left: 100px; */
+    z-index: 1000;
+}
+
+#blue {
+    background-color: blue;
+    position: relative;
+    top: 100px;
+    left: 150px;
+    margin-top: 100px;
+    z-index: 50;
+}
+
+#coral {
+    background-color:coral;
+    position: fixed;
+    top: 250px;
+    left: 200px;
+}
+
+#yellow {
+    position: sticky;
+    top: 0;
+    background-color: yellow;
+    /* auto will automatically calculate how much space each side should have equally. Only works on left/right, not top/bottom. */
+    margin-left: auto;
+    margin-right: auto;
+}
+        </style>
+    </head>
+
+    <body>
+
+        <div id="pink">
+
+        </div>
+
+        <div id="blue">
+
+        </div>
+
+        <div id="coral">
+
+        </div>
+
+        <div id="yellow">
+
+        </div>
+
+    </body>
+</html>
